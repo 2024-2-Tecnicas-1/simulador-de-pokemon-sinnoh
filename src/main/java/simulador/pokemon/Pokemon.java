@@ -1,5 +1,9 @@
 package simulador.pokemon;
 
-public class Pokemon {
-    // TODO: Aquí va tu código
+public abstract class Pokemon {
+    private String nombre;
+    private double salud;
+    private int puntosDeAtaque;
+    private String tipo;
+    private String estado;
 }
