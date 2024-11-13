@@ -19,7 +19,8 @@ public abstract class Pokemon {
     }
     
     public void entrenar(){
-        this.salud =+2;
+        this.salud = +5;
+        this.puntosDeAtaque = +3;
     }
 }
 
